@@ -1,0 +1,46 @@
+@import "./navigation";
+@import "./variables";
+@import "./footer";
+@import "./primary-page";
+@import "./secondary-page";
+@import "./landing-page";
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+}
+
+.technologies--image {
+  background-image: url("../assets/pexels-pixabay-356036.jpg");
+}
+
+.offer--image {
+  background-image: url("../assets/pexels-andrea-piacquadio-3760529.jpg");
+}
+
+.tattoos--image {
+  background-image: url("../assets/pexels-antoni-shkraba-7005661.jpg");
+}
+.projects--image {
+  background-image: url("../assets/pexels-fauxels-3183150.jpg");
+}
+.supervision--image {
+  background-image: url("../assets/pexels-yury-kim-585418.jpg");
+}
+
+.primary--content,
+.secondary--content {
+  position: relative;
+  margin: 16px;
+  .logo__bottom {
+    width: 100px;
+    margin: 16px;
+    position: absolute;
+    left: 50%;
+    bottom: 16px;
+    transform: translate(-50%, 0);
+  }
+}
