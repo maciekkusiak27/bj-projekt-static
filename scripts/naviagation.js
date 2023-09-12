@@ -16,19 +16,3 @@ navElements.forEach((navElement) => {
     navigation.classList.remove("active");
   });
 });
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   const lineElements = document.querySelectorAll(".line");
-
-//   window.addEventListener("scroll", function () {
-//     if (window.scrollY > window.innerHeight) {
-//       lineElements.forEach(function (line) {
-//         line.style.backgroundColor = "black";
-//       });
-//     } else {
-//       lineElements.forEach(function (line) {
-//         line.style.backgroundColor = "#ffffff";
-//       });
-//     }
-//   });
-// });
